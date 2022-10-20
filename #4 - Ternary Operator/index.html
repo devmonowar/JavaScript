@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h1 id="demo"></h1>
+
+<script>
+function renderApp() {
+  document.getElementById("demo").innerHTML = "Welcome!";
+}
+
+function renderLogin() {
+  document.getElementById("demo").innerHTML = "Please log in";
+}
+
+let authenticated = false;
+
+
+authenticated ? renderApp() : renderLogin();
+
+
+
+
+const result1 = 10 > 5 ? 'yes' : 'no';
+console.log(result1); // 👉️ 'yes'
+
+const result2 = 10 > 100 ? 'yes' : 'no';
+console.log(result2); // 👉️ 'no'
+
+
+
+</script>
+
+</body>
+</html>
