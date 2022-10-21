@@ -28,6 +28,7 @@
     <p id="demo3">A Paragraph.</p>
 
     <button type="button" onclick="myFunction()">Try it</button>
+    <p id="demo4"></p>
 
     <script>
         document.getElementById("demo2").innerHTML = "My First JavaScript";
@@ -43,6 +44,15 @@
 
         document.getElementById("demo").innerHTML =
         "The value of z is " + z + "."; 
+
+
+        var xy = myFunction(4, 5);
+
+        function myFunction(a, b) {
+        return a * b;
+        }
+        
+        document.getElementById("demo4").innerHTML = xy;
 
     </script>
 
