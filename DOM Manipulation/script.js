@@ -85,7 +85,7 @@ items.classList.toggle('test')
 
 const newElement = document.createElement("li");
 newElement;
-console.dir(newElement);
+// console.dir(newElement);
 newElement.innerHTML = "item five";
 
 const ul = document.querySelector('ul');
@@ -93,3 +93,8 @@ const ul = document.querySelector('ul');
 ul.appendChild(newElement);
 ul.append(newElement);
 ul.prepend(newElement);
+
+const li = document.createElement("li");
+li.innerText = "item six";
+const lis = document.querySelectorAll('li')
+ul.insertBefore(li, lis[2])
