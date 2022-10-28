@@ -69,3 +69,27 @@ items.classList
 items.classList.add("test")
 items.classList.remove('test')
 items.classList.toggle('test')
+
+
+// DOM Manipulation (Part 3/3)
+
+// • createElement()
+// • appendChild()
+// • insertBefore()
+// • insertAdjacentElement()
+// • append()
+// • prepend()
+// • removeChild()
+// • remove()
+
+
+const newElement = document.createElement("li");
+newElement;
+console.dir(newElement);
+newElement.innerHTML = "item five";
+
+const ul = document.querySelector('ul');
+
+ul.appendChild(newElement);
+ul.append(newElement);
+ul.prepend(newElement);
