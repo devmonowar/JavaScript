@@ -98,3 +98,35 @@ const li = document.createElement("li");
 li.innerText = "item six";
 const lis = document.querySelectorAll('li')
 ul.insertBefore(li, lis[2])
+
+
+// JavaScript HTML DOM Examples
+
+ const elementvar = document.getElementById("demo666");
+// elementvar.innerHTML = "Cookies associated with this document: " + document.cookie;
+// elementvar.innerHTML = document.domain;
+ elementvar.innerHTML = document.lastModified;
+ elementvar.innerHTML = "The title of this document is: " + document.title;
+ 
+ elementvar.innerHTML = document.URL;
+
+ var w = window.open();
+ w.document.open();
+ w.document.write("<h2>Hello World!</h2>");
+ w.document.close();
+
+
+
+
+//insertAdjacentElement 
+
+// afterbegin
+// afterend
+// beforebegin
+// beforeend
+
+ const bold = document.createElement("b");
+bold.innerHTML = 'bold text hear'
+const firstHeading = document.querySelector('.package_name h3')
+firstHeading.insertAdjacentElement('beforebegin', bold);
+​
