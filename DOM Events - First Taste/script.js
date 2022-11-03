@@ -1,1 +1,0 @@
-const rainbow = ["red, orange, yellow, green, blue, indigo, violet"];

@@ -1,0 +1,19 @@
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+}
+
+#selectedColor {
+    color: #fff;
+    padding: 5px;
+}
+h1,
+span {
+    display: inline-block;
+}
